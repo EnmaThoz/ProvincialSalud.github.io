@@ -216,6 +216,12 @@ body {
 }
 
 @media (max-width: 768px) {
+    .cta{
+        text-align: center;
+    }
+    .course__about a{
+        text-align: center;
+    }
     .hero__container {
         flex-direction: column;
         text-align: center;
