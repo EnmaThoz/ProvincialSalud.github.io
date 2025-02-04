@@ -660,7 +660,7 @@ margin: 4%;
     }
 
     .hero__container {
-        --padding-container: 45px 0;
+        padding: 45px 0;
     }
 
     .hero__texts {
@@ -668,38 +668,61 @@ margin: 4%;
     }
 
     .hero__title {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .hero__cta {
         display: block;
         width: 90%;
         margin: 0 auto;
+        text-align: center; /* Centrar el botón */
     }
 
     .title {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .cta {
         display: block;
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
     }
 
     .instructor {
-        --padding-container: 60px 0;
+        padding: 60px 0;
     }
 
     .instructor__container {
         width: 90%;
+        margin: 0 auto;
+        text-align: center; /* Centrar el contenido del instructor */
     }
 
     .about {
-        gap: 40px;
+        gap: 20px;
     }
 
     .about__course {
         width: 100%;
     }
+
+    /* Ajustes específicos para el mapa */
+    .map {
+        width: 100%;
+        height: auto;
+        margin: 20px 0; /* Margen alrededor del mapa */
+        text-align: center; /* Centrar el mapa */
+    }
+
+    /* Asegurando que el botón esté centrado */
+    .btn {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: 10px auto; /* Asegurando margen automático */
+    }
+
 
     .card__container {
         width: 97%;
