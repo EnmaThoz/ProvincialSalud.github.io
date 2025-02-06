@@ -216,6 +216,9 @@ body {
 }
 
 @media (max-width: 768px) {
+    #floating-menu{
+        display:none;
+    }
     .cta{
         text-align: center;
     }
